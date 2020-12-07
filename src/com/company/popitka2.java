@@ -1,5 +1,11 @@
 package com.company;
+import java.util.Scanner;
 
 public class popitka2 {
-    System.out.println("Hello world");
+
+    public static void main(String[] args){
+        Scanner k = new Scanner(System.in);
+        System.out.println("Введите имя");
+        String imya = k.nextLine();
+        System.out.println(imya); }
 }

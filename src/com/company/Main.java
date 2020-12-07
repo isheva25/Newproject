@@ -1,6 +1,6 @@
 package com.company;
 
- class newproject {
+class newproject {
 
     public static void main (String[] args) {
       String novayazadacha = "Новый68222998666 ";
