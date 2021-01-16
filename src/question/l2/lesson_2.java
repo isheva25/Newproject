@@ -7,20 +7,20 @@ public class lesson_2 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Доброго времени суток Студент");
-        System.out.print("Введите данные координат для вычисления площади прямоугольника");
+        System.out.println("Введите данные координат для вычисления площади прямоугольника");
 
         System.out.println("Введите координаты точки А:");
-        String tochkaA = sc.nextLine();
+        int tochkaA = sc.nextInt();
 
         System.out.println("Введите координаты точки B:");
-        String tochkaB = sc.nextLine();
+        int tochkaB = sc.nextInt();
 
         System.out.println("Введите координаты точки C:");
-        String tochkaC = sc.nextLine();
+        int tochkaC = sc.nextInt();
 
         System.out.println("Введите координаты точки D:");
-        String tochkaD = sc.nextLine();
+        int tochkaD = sc.nextInt();
 
-        System.out.println("Площадь прямоугольника: " + (tochkaB - tochkaC) * (tochkaB - tochkaA) + "условных единиц");
+        System.out.println("Площадь прямоугольника: " + (tochkaC - tochkaB) * (tochkaD - tochkaA) + " условных единиц");
     }
 }
