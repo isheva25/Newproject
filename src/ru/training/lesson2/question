@@ -1,0 +1,29 @@
+Index: src/ru/training/lesson2/question
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/ru/training/lesson2/question	(date 1609192029984)
++++ src/ru/training/lesson2/question	(date 1609192029984)
+@@ -0,0 +1,6 @@
++Создать класс, который бы расчитывал площадь любой фигуры.
++
++Требования:
++Класс выводит приветственное сообщение.
++Класс просит ввести координаты.
++Производит расчёт и выводит результат.
+\ No newline at end of file
+Index: src/ru/training/lesson1/question
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/ru/training/lesson1/question	(date 1609191397000)
++++ src/ru/training/lesson1/question	(date 1609192029995)
+@@ -1,1 +1,3 @@
+-Создать класс, который бы просил ввести имя, отчество, фамилию и вывести приветственное сообщение для сформированной строки.
+\ No newline at end of file
++Создать класс, который бы просил ввести имя, отчество, фамилию и вывести приветственное сообщение для сформированной строки.
+++
++Только курсор смещается за текст.
+\ No newline at end of file
