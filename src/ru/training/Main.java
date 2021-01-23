@@ -15,10 +15,10 @@ class lesson_3{
         String yesno = sc.nextLine();
 
         if (yesno=="Да") {
-            System.out.println(yes.equals(no));
+            System.out.println(yesno.equals(yes));
         }
         else if (yesno=="Нет") {
-            System.out.println(yes.equals(no));
+            System.out.println(yesno.equals(no));
 
         }
     }
