@@ -9,16 +9,15 @@ class lesson_3{
         System.out.println("Доброго времени суток Бездельник");
         System.out.println("Хочешь вычислить площадь какой-нибудь фигуры?");
         System.out.println("Введите: Да/Нет");
-        String yes = "Да";
-        String no = "Нет";
+
 
         String yesno = sc.nextLine();
 
-        if (yesno=="Да") {
-            System.out.println(yesno.equals(yes));
+        if (yesno == "Да") {
+            System.out.println("Вы ввели Да");
         }
-        else if (yesno=="Нет") {
-            System.out.println(yesno.equals(no));
+        else if (yesno == "Нет") {
+            System.out.println("Вы ввели Нет");
 
         }
     }
